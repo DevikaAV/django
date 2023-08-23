@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <style>
+        * {box-sizing: border-box;}
+        
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+        
+        }
+        
+        .topnav a {
+          float: left;
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #2196F3;
+          color: white;
+        }
+        
+        .topnav .login-container {
+          float: right;
+        }
+        
+        .topnav input[type=text] {
+          padding: 6px;
+          margin-top: 8px;
+          font-size: 17px;
+          border: none;
+          width:120px;
+        }
+        
+        .topnav .login-container button {
+          float: right;
+          padding: 6px 10px;
+          margin-top: 8px;
+          margin-right: 16px;
+          background-color: #555;
+          color: white;
+          font-size: 17px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .topnav .login-container button:hover {
+          background-color: green;
+        }
+        
+        @media screen and (max-width: 600px) {
+          .topnav .login-container {
+            float: none;
+          }
+          .topnav a, .topnav input[type=text], .topnav .login-container button {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+          }
+          .topnav input[type=text] {
+            border: 1px solid #ccc;  
+          }
+        }
+        body{
+          background: rgb(183,255,240);
+background: linear-gradient(90deg, rgba(183,255,240,0.9556197478991597) 25%, rgba(77,154,198,1) 100%);
+      }
+      div.card{
+        padding:50px;
+      }
+      a{
+        text-decoration:none;
+        color:black;
+      }
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="http://127.0.0.1:8000/adminlogin">Admin login</a>
+        <div class="login-container">
+          
+          
+            
+           <a href="http://127.0.0.1:8000">Logout</a>
+           <button type="submit">{{username}}</button>
+          </form>
+        </div>
+      </div>
+      <div class="py-5">
+        <div class="container">
+          <h1>Learn from Quiz</h1>
+          <br>
+          <p>Login for certificate</p>
+          <div class="row hidden-md-up">
+            <div class="col-md-4">
+              <a href=""><div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">HTML</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                  
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4">
+              <a href=""><div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">CSS</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                  
+                
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">BOOTSTRAP</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                 
+                 
+                </div>
+              </div>
+            </div></a>
+          </div><br>
+
+
+
+          <!--new cards-->
+          <div class="row">
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">HARDWARE</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                  
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">NETWORKING</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">JAVASCRIPT</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                
+                  
+                </div>
+              </div>
+            </div></a>
+            
+            
+          </div>
+        <br>
+          <div class="row hidden-md-up">
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">PHP</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                 
+                  
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">MYSQL</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                 
+                  
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">FLASK</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                  
+                 
+                </div>
+              </div>
+            </div></a>
+          </div><br>
+          <div class="row">
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">LARAVEL</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                 
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">DJANGO</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                 
+                 
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4"><a href="">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">AJAX</h4>
+                  <h6 class="card-subtitle text-muted">MCQ and Answers</h6>
+                
+                  
+                </div>
+              </div></a>
+            </div>
+            
+            
+          </div>
+          
+        </div>
+        </div>
+        
+      </div>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+      <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
+</html>
